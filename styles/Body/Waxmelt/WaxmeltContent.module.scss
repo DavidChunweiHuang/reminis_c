@@ -1,0 +1,37 @@
+@import "../../utilities/variables.scss";
+
+.title_en {
+    font-size: $size_subtitle_en;
+    font-style: $style_subtitle_en;
+    color: $color_secondary;
+}
+
+.title_ch {
+    font-size: $size_title_ch;
+    font-weight: $weight_title_ch;
+    color: $color_secondary;
+
+    margin-top: 7px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+
+    .icon_main {
+        position: relative;
+        margin-left: 16px;
+    }
+}
+
+.bar {
+    width: 40px;
+    border: 1px solid $color_secondary;
+    margin: 26px 0px;
+}
+
+.content {
+    width: 551px;
+    height: auto;
+    color: $color_secondary;
+    font-size: $size_content_ch;
+}

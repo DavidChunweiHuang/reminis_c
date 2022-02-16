@@ -1,0 +1,36 @@
+$font_en: "New York Extra Large";
+$font_ch: "Source Han SerifJP";
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+
+    position: relative;
+    height: 494px;
+    width: 100%;
+}
+
+@media screen and (max-width:1920px){
+    .container {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:1440px){
+    .container {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:1280px){
+    .container {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:800px){
+    .container {
+        width: 100%;
+    }
+}

@@ -1,0 +1,88 @@
+
+// slide show
+.slideshow {
+    position: relative;
+
+    margin: 0 auto;
+    overflow: hidden;
+
+    width: 100%;
+    height: auto;
+}
+
+.slideshow_slider {
+    white-space: nowrap;
+    transition: ease 1000ms; 
+
+    height: 494px;
+    width: 100%;
+
+}
+
+.slide {
+    position: relative;
+    display: inline-block;
+    
+    height: 100%;
+    width: 100%;
+
+    background-size: cover;
+    background-position: center center;
+}
+
+// Change images or just put it at center? To be discussed (put at center for now)
+@media screen and (max-width: 1920px){
+    .slideshow_slider {
+        width: 100%;
+    }
+
+    .slide {
+        height: 494px;
+    }
+}
+
+@media screen and (max-width:1440px){
+    .slideshow_slider {
+        width: 100%;
+        
+    }
+
+    .slide {
+        height: 494px;
+    }
+}
+
+@media screen and (max-width:1280px){
+    .slideshow_slider {
+        width: 100%;
+    }
+
+    .slide {
+        height: 494px;
+    }
+}
+
+@media screen and (max-width:800px){
+    .slideshow_slider {
+        width: 100%;
+    }
+
+    .slide {
+        height: 494px;
+    }
+}
+
+// Dots
+.slideshow_dots {
+    text-align: center;
+}
+
+.slideshow_dot {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 15px 7px 0px;
+    background-color: #c4c4c4;
+}
