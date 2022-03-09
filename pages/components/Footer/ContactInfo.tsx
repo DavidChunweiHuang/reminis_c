@@ -1,7 +1,7 @@
 import styles from '../../../styles/Footer/ContactInfo.module.scss'
 
 import Image from 'next/image'
-import logo_all from '../../../public/img/logo/logo_all@2x.png'
+import logo_all from '../../../public/img/logo/logo_all.svg'
 import qrcode from '../../../public/img/icon/qrcode.png'
 
 const ContactInfo = () => {
