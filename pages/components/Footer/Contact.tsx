@@ -5,9 +5,26 @@ import logo_pattern from '../../../public/img/logo/logo_pattern.svg'
 import ic_fb from '../../../public/img/icon/ic_fb@2x.png'
 import ic_pinkoi from '../../../public/img/icon/ic_pinkoi@2x.png'
 import ic_ig from '../../../public/img/icon/ic_ig@2x.png'
+import ic_line from '../../../public/img/icon/ic_line.png'
 
+import { useRef, useState, useEffect } from 'react';
 
 const Contact = () => {
+    // Get window width
+    const [width, setWidth] = useState(2500);
+
+    useEffect(() => {
+        const updateWindowDimentions = () => {
+            const newWidth = window.innerWidth;
+            setWidth(newWidth);
+
+        };
+
+        window.addEventListener("resize", updateWindowDimentions);
+        return () => window.removeEventListener("resize", updateWindowDimentions)
+    }, []);
+
+    // Rendering
     return (
         <div className={styles.contact_content}>
             {/* Logo */}
@@ -29,6 +46,9 @@ const Contact = () => {
                 <Image src={ic_fb} width="41px" height="39px" />
                 <Image src={ic_pinkoi} width="41px" height="39px" />
                 <Image src={ic_ig} width="41px" height="39px" />
+                <div className={styles.img_line_show}>
+                    <Image src={ic_line} width="41px" height="39px" />
+                </div>
             </div>
         </div>
 

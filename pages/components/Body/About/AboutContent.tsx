@@ -13,9 +13,7 @@ const AboutContent = () => {
                 </div>
             </div>
 
-            <div className={styles.bar}>
-
-            </div>
+            <div className={styles.bar}></div>
 
             <div className={styles.about_content}>
                 <div className={styles.title}>

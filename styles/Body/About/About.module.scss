@@ -35,6 +35,7 @@
             align-items: flex-start;
 
             .about_image {
+                position: relative;
                 width: 800px;
                 height: 400px;
                 z-index: 1;
@@ -59,7 +60,87 @@
 }
 
 @media screen and (max-width: 800px){
-    .container .below_area .content_background {
-        background-image: none;
+    .container {
+        height: auto;
+        justify-content: start;
+        margin: 100px 0px;
+
+        .below_area {
+            height: 400px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+
+            .below_blank {
+                width: 100%;
+                height: 75px;
+                background: none;
+    
+                display: flex;
+                justify-content: center;
+                align-items: flex-start;
+    
+                .about_image {
+                    position: relative;
+                    width: 800px;
+                    height: 400px;
+                    z-index: 1;
+                }
+            }
+    
+
+            .content_background {
+                display: none;
+            }
+        } 
+    }
+}
+
+@media screen and (max-width: 425px){
+    .container {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+
+        position: relative;
+        width: 100%;
+        height: 100%;
+        left: 0px;
+
+        margin: 20px 0px;
+
+        .below_area {
+            width: 100%;
+            height: 200px;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+            align-items: flex-start;
+            
+            .below_blank {
+                width: 100%;
+                height: 200px;
+                background: none;
+
+                display: flex;
+                justify-content: center;
+                align-items: flex-start;
+
+                .about_image {
+                    position: relative; // need this when <Image .... layout="fill">
+                    width: 100%;
+                    height: 200px;
+                    z-index: 1;
+                }
+            }
+            .content_background {
+                display: none;
+                
+            }
+        }
     }
 }

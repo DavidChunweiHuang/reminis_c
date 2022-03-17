@@ -7,7 +7,7 @@ const CrafterContent = () => {
     const content = "強調個人特色以及喜好的系列，由筧燭設計師精選香氛，調和成為代表筧燭的品牌香氛，隨後再疊加上三種截然不同的香調，並灌入全手工打造之容器，各自成為三方代表。";
 
     return (
-        <div>
+        <div className={styles.content}>
             <div className={styles.title_en}>
                 "RC Crafter Candle"
             </div>
@@ -21,7 +21,7 @@ const CrafterContent = () => {
 
             <div className={styles.bar}></div>
 
-            <div className={styles.content}>
+            <div className={styles.content_details}>
                 {content}
             </div>
 

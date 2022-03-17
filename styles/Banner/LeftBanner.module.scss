@@ -70,3 +70,31 @@
         color: $color_secondary;
     }
 }
+
+@media screen and (max-width: 425px){
+    .left_container {
+        width: 100%;
+        height: 100%;
+        padding: 30px;
+
+        .main_title {
+            #en_subtitle {
+                margin-top: 3px;
+            }
+        
+            #ch_title {
+                margin-top: 3px;
+            }
+        }
+
+        .icon_main {
+            margin-top: 10px;
+        }
+
+        .promote_text_area {
+            margin-top: 20px;
+            width: 260px;
+        }
+    }
+    
+}
