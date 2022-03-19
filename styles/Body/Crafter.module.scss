@@ -37,18 +37,23 @@
 }
 
 @media screen and (max-width: 800px) {
-    .container .inner_container {
-        display: flex;
-        justify-content: center;
+    .container {
+        height: 557px;
 
-        .crafter_content {
-            top: 278px;
-            left: initial;
+        .inner_container {
+            height:100%;
+            display: flex;
+            justify-content: center;
+    
+            .crafter_content {
+                top: 278px;
+                left: initial;
+            }
         }
     }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 700px) {
     .container {
         height: 469px;
         margin-top: 20px;

@@ -36,18 +36,22 @@
 }
 
 @media screen and (max-width: 800px) {
-    .container .inner_container {
-        display: flex;
-        justify-content: center;
-
-        .holder_content {
-            top: 278px;
-            right: initial;
+    .container {
+        height: 557px;
+        
+        .inner_container {
+            display: flex;
+            justify-content: center;
+    
+            .holder_content {
+                top: 278px;
+                right: initial;
+            }
         }
     }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 700px) {
     .container {
         height: 100%;
         margin-top: 20px;
