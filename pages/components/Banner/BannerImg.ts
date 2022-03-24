@@ -1,3 +1,5 @@
 // sldeshow images
-
-export default {}
+const BannerImg = () => {
+    return
+}
+export default BannerImg
