@@ -42,6 +42,8 @@ const Navigation = () => {
     )
 }
 
+// close func
+
 // const Show = () => (
 //     <div className={styles.show_menu}>
 //         test

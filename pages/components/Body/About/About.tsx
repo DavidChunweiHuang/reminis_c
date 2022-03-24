@@ -12,15 +12,24 @@ const About = () => {
             <AboutContent />
 
             {/* Image & Background */}
-            <div className={styles.below_area}>
+            {/* <div className={styles.below_area}>
                 <div className={styles.below_blank}>
                     <div className={styles.about_image}>
-                        <Image src={about_image} width="800px" height="400px" />
+                        <Image src={about_image} layout="responsive" objectFit="cover" />
                     </div>
                 </div>
                 <div className={styles.content_background}></div>
-            </div>
+            </div> */}
 
+            <div className={styles.below_area}>
+                <div className={styles.below_blank}>
+                    <div className={styles.about_image}>
+                        <Image src={about_image} layout="fill" objectFit="cover" />
+                    </div>
+                </div>
+                <div className={styles.content_background}></div>
+
+            </div>
 
         </div>
     )
