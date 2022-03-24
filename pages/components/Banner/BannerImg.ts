@@ -1,3 +1,3 @@
 // sldeshow images
 
-export { }
+export default {}
