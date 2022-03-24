@@ -29,9 +29,9 @@ const Navigation = () => {
             </ul>
 
 
-            <div className={styles.hamburger}>
+            {/* <div className={styles.hamburger}>
                 <FontAwesomeIcon icon={faBars} size="lg" onClick={open} />
-            </div>
+            </div> */}
 
 
             <div className={`${styles.menu_container} ${isActive ? "styles.menu_active" : ""}`}>
