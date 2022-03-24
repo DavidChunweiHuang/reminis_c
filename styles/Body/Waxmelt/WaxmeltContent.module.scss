@@ -1,37 +1,76 @@
 @import "../../utilities/variables.scss";
 
-.title_en {
-    font-size: $size_subtitle_en;
-    font-style: $style_subtitle_en;
-    color: $color_secondary;
-}
-
-.title_ch {
-    font-size: $size_title_ch;
-    font-weight: $weight_title_ch;
-    color: $color_secondary;
-
-    margin-top: 7px;
-
-    display: flex;
-    flex-direction: row;
-    justify-content: left;
-
-    .icon_main {
-        position: relative;
-        margin-left: 16px;
-    }
-}
-
-.bar {
-    width: 40px;
-    border: 1px solid $color_secondary;
-    margin: 26px 0px;
-}
-
 .content {
-    width: 551px;
-    height: auto;
-    color: $color_secondary;
-    font-size: $size_content_ch;
+    .title_en {
+        font-size: $size_subtitle_en;
+        font-style: $style_subtitle_en;
+        color: $color_secondary;
+    }
+    
+    .title_ch {
+        font-size: $size_title_ch;
+        font-weight: $weight_title_ch;
+        color: $color_secondary;
+    
+        margin-top: 7px;
+    
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+    
+        .icon_main {
+            position: relative;
+            margin-left: 16px;
+        }
+    }
+    
+    .bar {
+        width: 40px;
+        border: 1px solid $color_secondary;
+        margin: 26px 0px;
+    }
+    
+    .content_details {
+        width: 551px;
+        height: auto;
+        color: $color_secondary;
+        font-size: $size_content_ch;
+    }
+    
+}
+
+@media screen and (max-width: 700px) {
+    .content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .title_en {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;;
+        }
+    
+        .title_ch {   
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        
+            .icon_main {
+                display: none;
+            }
+        }
+    
+        .bar {
+            width: 40px;
+            border: 1px solid $color_secondary;
+            margin: 20px 0px;
+        }
+    
+        .content_details {
+            width: 100%;
+        }
+    }
+    
 }

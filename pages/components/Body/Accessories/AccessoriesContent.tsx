@@ -7,7 +7,7 @@ const AccessoriesContent = () => {
     const content = "筧燭茶蠟為純天然大豆蠟製成，搭配手工燭台及碟盤，將空間注入靈魂。";
 
     return (
-        <div>
+        <div className={styles.content}>
             <div className={styles.title_en}>
                 "Accessories"
             </div>
@@ -21,7 +21,7 @@ const AccessoriesContent = () => {
 
             <div className={styles.bar}></div>
 
-            <div className={styles.content}>
+            <div className={styles.content_details}>
                 {content}
             </div>
 

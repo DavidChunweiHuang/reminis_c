@@ -1,8 +1,9 @@
 import styles from '../../../styles/Footer/ContactInfo.module.scss'
 
 import Image from 'next/image'
-import logo_all from '../../../public/img/logo/logo_all@2x.png'
+import logo_all from '../../../public/img/logo/logo_all.svg'
 import qrcode from '../../../public/img/icon/qrcode.png'
+import { faDivide } from '@fortawesome/free-solid-svg-icons'
 
 const ContactInfo = () => {
     const address = "台北市大安區泰順街38巷28號1樓";
@@ -10,7 +11,23 @@ const ContactInfo = () => {
 
     return (
         <div className={styles.container}>
-            <div className={styles.info_content}>
+            <div className={styles.content_left}>
+                <Image src={logo_all} width="216px" height="60px" />
+                <div className={styles.address_title}>Address</div>
+                <div className={styles.address_detail}>{address}</div>
+            </div>
+
+            <div className={styles.content_center}>
+                <div className={styles.blank_area}></div>
+                <div className={styles.email_title}>Email</div>
+                <div className={styles.email_detail}>{email}</div>
+            </div>
+            <div className={styles.area_before_qrcode}></div>
+            <div className={styles.content_right}>
+                <Image src={qrcode} width="100px" height="100px" />
+                <div className={styles.qr_text}>透過Line聯絡</div>
+            </div>
+            {/* <div className={styles.info_content}>
                 <div className={styles.info_details}>
                     <Image src={logo_all} width="216px" height="60px" />
                     <table>
@@ -33,9 +50,8 @@ const ContactInfo = () => {
                     </div>
                     <div id={styles.qr_text}>透過Line聯絡</div>
                 </div>
-            </div>
+            </div> */}
         </div>
-
 
     )
 }

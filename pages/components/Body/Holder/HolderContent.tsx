@@ -7,7 +7,7 @@ const HolderContent = () => {
     const content = "為要將燭球完美融化並體驗其融化過程的美麗，Reminis Candēre 燭台由此而生，將燭球放入碟盤中，細細品味視覺及嗅覺的融合。";
 
     return (
-        <div>
+        <div className={styles.content}>
             <div className={styles.title_en}>
                 "Wax Melt Holder"
             </div>
@@ -21,7 +21,7 @@ const HolderContent = () => {
 
             <div className={styles.bar}></div>
 
-            <div className={styles.content}>
+            <div className={styles.content_details}>
                 {content}
             </div>
 

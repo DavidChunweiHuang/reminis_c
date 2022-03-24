@@ -72,6 +72,17 @@
     }
 }
 
+@media screen and (max-width: 425px){
+    .slideshow_slider {
+        width: 100%;
+        height: 224px;
+    }
+
+    .slide {
+        height: 224px;
+    }
+}
+
 // Dots
 .slideshow_dots {
     text-align: center;

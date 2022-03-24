@@ -1,7 +1,7 @@
 import styles from '../../styles/Slideshow.module.scss'
 
 import { useRef, useState, useEffect } from 'react';
-
+// 
 const banner_1920 = [
     "url(/img/banner/img01_1920.png)",
     "url(/img/banner/img01_1920@2x-2.png)",
@@ -32,6 +32,7 @@ const banner_m = [
     "url(/img/banner/banner_m@2x.png)"
 ]
 
+// var => let
 var banner = [""]
 
 const Slideshow = () => {
@@ -84,8 +85,10 @@ const Slideshow = () => {
     }, [index]);
 
 
+    // Rendering
     return (
         <div className={styles.slideshow}>
+            {/* 多少尺寸，就設定多少div, div 裡面再分別map對應的banner尺寸 */}
             <div
                 className={styles.slideshow_slider}
                 style={{ transform: `translate3d(${-index * 100}%, 0, 0)` }}>

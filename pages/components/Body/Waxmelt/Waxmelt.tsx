@@ -9,8 +9,10 @@ const Waxmelt = () => {
         <div className={styles.container}>
             <div className={styles.inner_container}>
                 <div className={styles.waxmelt_bg}>
-                    <Image src={waxmelt_bg} width="1140px" height="700px" />
+                    <Image src={waxmelt_bg} layout="responsive" objectFit="cover" />
                 </div>
+
+                <div className={styles.blank_area}></div>
 
                 <div className={styles.waxmelt_content}>
                     {/* Content Component */}
