@@ -2,10 +2,10 @@ import styles from '../../../styles/Footer/Contact.module.scss'
 
 import Image from 'next/image'
 import logo_pattern from '../../../public/img/logo/logo_pattern.svg'
-import ic_fb from '../../../public/img/icon/ic_fb@2x.png'
-import ic_pinkoi from '../../../public/img/icon/ic_pinkoi@2x.png'
-import ic_ig from '../../../public/img/icon/ic_ig@2x.png'
-import ic_line from '../../../public/img/icon/ic_line.png'
+import ic_fb from '../../../public/img/icon/ic_fb.svg'
+import ic_pinkoi from '../../../public/img/icon/ic_pinkoi.svg'
+import ic_ig from '../../../public/img/icon/ic_ig.svg'
+import ic_line from '../../../public/img/icon/ic_line.svg'
 
 import { useRef, useState, useEffect } from 'react';
 
