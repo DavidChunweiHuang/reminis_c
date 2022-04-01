@@ -1,4 +1,5 @@
 import styles from '../../../styles/Header/Navigation.module.scss';
+import Link from 'next/link'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
@@ -19,13 +20,13 @@ const Navigation = () => {
         <div className={styles.container}>
 
             <ul>
-                <li>首頁</li>
-                <li>關於筧燭</li>
-                <li>燭球系列</li>
-                <li>設計師系列</li>
-                <li>燭台系列</li>
-                <li>配件</li>
-                <li>聯絡我們</li>
+                {/* <li><Link href="/"><a>首頁</a></Link></li> */}
+                <li><Link href="#about" scroll={false}><a>關於筧燭</a></Link></li>
+                <li><Link href="#waxmelt" scroll={false}><a>燭球系列</a></Link></li>
+                <li><Link href="#crafter" scroll={false}><a>設計師系列</a></Link></li>
+                <li><Link href="#holder" scroll={false}><a>燭台系列</a></Link></li>
+                <li><Link href="#accessories" scroll={false}><a>配件</a></Link></li>
+                <li><Link href="#contactus" scroll={false}><a>聯絡我們</a></Link></li>
             </ul>
 
 

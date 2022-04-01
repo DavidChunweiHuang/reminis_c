@@ -6,7 +6,7 @@ import styles from '../../../../styles/Body/Holder.module.scss'
 
 const Holder = () => {
     return (
-        <div className={styles.container}>
+        <div className={styles.container} id="holder">
             <div className={styles.inner_container}>
                 <div className={styles.holder_bg}>
                     <Image src={holder_bg} width="1140px" height="700px" />

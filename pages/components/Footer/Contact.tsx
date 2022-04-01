@@ -1,4 +1,5 @@
 import styles from '../../../styles/Footer/Contact.module.scss'
+import Link from 'next/link'
 
 import Image from 'next/image'
 import logo_pattern from '../../../public/img/logo/logo_pattern.svg'
@@ -26,7 +27,7 @@ const Contact = () => {
 
     // Rendering
     return (
-        <div className={styles.contact_content}>
+        <div className={styles.contact_content} id="contactus">
             {/* Logo */}
             <Image src={logo_pattern} width="47.78" height="70px" />
 
@@ -43,11 +44,24 @@ const Contact = () => {
 
             {/* Icons */}
             <div className={styles.icons}>
-                <Image src={ic_fb} width="41px" height="39px" />
-                <Image src={ic_pinkoi} width="41px" height="39px" />
-                <Image src={ic_ig} width="41px" height="39px" />
+                <Link href="https://www.facebook.com/reminiscandere">
+                    <a target="_blank"><Image src={ic_fb} width="41px" height="39px" /></a>
+                </Link>
+
+                <Link href="https://www.pinkoi.com/store/reminiscandere">
+                    <a target="_blank"><Image src={ic_pinkoi} width="41px" height="39px" /></a>
+                </Link>
+
+                <Link href="https://www.instagram.com/reminis_candere/">
+                    <a target="_blank"><Image src={ic_ig} width="41px" height="39px" /></a>
+                </Link>
+
+
                 <div className={styles.img_line_show}>
-                    <Image src={ic_line} width="41px" height="39px" />
+                    <Link href="https://lin.ee/3ysrg4U">
+                        <a target="_blank"><Image src={ic_line} width="41px" height="39px" /></a>
+                    </Link>
+
                 </div>
             </div>
         </div>

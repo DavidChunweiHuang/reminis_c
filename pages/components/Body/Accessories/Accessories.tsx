@@ -3,7 +3,7 @@ import styles from '../../../../styles/Body/Accessories.module.scss'
 
 const Accessories = () => {
     return (
-        <div className={styles.container}>
+        <div className={styles.container} id="accessories">
             <div className={styles.accessories_bg}>
             </div>
 

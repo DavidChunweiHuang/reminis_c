@@ -6,7 +6,7 @@ import styles from '../../../../styles/Body/Crafter.module.scss'
 
 const Crafter = () => {
     return (
-        <div className={styles.container}>
+        <div className={styles.container} id="crafter">
             <div className={styles.inner_container}>
                 <div className={styles.crafter_bg}>
                     <Image src={crafter_bg} width="1140px" height="700px" />

@@ -5,7 +5,7 @@ import ic_point from '../../../../public/img/icon/ic_point@2x.png'
 const AboutContent = () => {
     return (
         <div className={styles.container}>
-            <div className={styles.about_title}>
+            <div className={styles.about_title} >
                 <span id={styles.en_subtitle}>"About us"</span>
                 <span id={styles.ch_title}>關於筧燭</span>
                 <div className={styles.icon_main}>

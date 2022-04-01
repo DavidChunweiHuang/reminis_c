@@ -4,7 +4,7 @@ import styles from '../../../styles/Banner/Banner.module.scss'
 
 const Banner = () => {
     return (
-        <div className={styles.container}>
+        <div className={styles.container} id="about">
             <LeftBanner />
             <RightBanner />
         </div>

@@ -6,7 +6,7 @@ import styles from '../../../../styles/Body/Waxmelt/Waxmelt.module.scss'
 
 const Waxmelt = () => {
     return (
-        <div className={styles.container}>
+        <div className={styles.container} id="waxmelt">
             <div className={styles.inner_container}>
                 <div className={styles.waxmelt_bg}>
                     <Image src={waxmelt_bg} layout="responsive" objectFit="cover" />

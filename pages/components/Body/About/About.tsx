@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import about_image from '../../../../public/img/about/about.png'
 import styles from '../../../../styles/Body/About/About.module.scss'
+import Link from 'next/link'
 
 import AboutContent from './AboutContent'
 
@@ -10,6 +11,7 @@ const About = () => {
 
             {/* About Content */}
             <AboutContent />
+
 
             {/* Image & Background */}
             {/* <div className={styles.below_area}>
@@ -27,7 +29,7 @@ const About = () => {
                         <Image src={about_image} layout="fill" objectFit="cover" />
                     </div>
                 </div>
-                <div className={styles.content_background}></div>
+                <div className={styles.content_background} ></div>
 
             </div>
 
