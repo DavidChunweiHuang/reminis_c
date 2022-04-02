@@ -17,6 +17,7 @@ const Home = () => {
         <title>Reminis Candēre 筧燭</title>
         <meta name="description" content="Reminis Candēre 筧燭 Officail Site" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="icon" href="/img/logo/rc_logo_color.png" />
       </Head>
 
       {/* Body - Header */}

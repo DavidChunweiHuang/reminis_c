@@ -25,7 +25,7 @@ const Navigation = () => {
                 <li><Link href="#waxmelt" scroll={false}><a>燭球系列</a></Link></li>
                 <li><Link href="#crafter" scroll={false}><a>設計師系列</a></Link></li>
                 <li><Link href="#holder" scroll={false}><a>燭台系列</a></Link></li>
-                <li><Link href="#accessories" scroll={false}><a>配件</a></Link></li>
+                <li><Link href="#accessories" scroll={false}><a>輕體驗</a></Link></li>
                 <li><Link href="#contactus" scroll={false}><a>聯絡我們</a></Link></li>
             </ul>
 
