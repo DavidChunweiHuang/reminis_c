@@ -3,11 +3,15 @@ import styles from '../../../styles/Footer/Footer.module.scss'
 import Contact from './Contact'
 import ContactInfo from './ContactInfo'
 
-const Footer = () => {
+const Footer = ({ en_title, ch_title, content }: any) => {
     return (
         <div className={styles.container}>
             <div className={styles.contact_block}>
-                <Contact />
+                <Contact
+                    en_title={en_title}
+                    ch_title={ch_title}
+                    content={content}
+                />
             </div>
 
             <div className={styles.information_block}>

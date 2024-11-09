@@ -12,7 +12,7 @@ const ContactInfo = () => {
     return (
         <div className={styles.container}>
             <div className={styles.content_left}>
-                <Image src={logo_all} width="216px" height="60px" />
+                <Image src={logo_all} width="216" height="60" alt='' />
                 <div className={styles.address_title}>Address</div>
                 <div className={styles.address_detail}>{address}</div>
             </div>
@@ -24,7 +24,7 @@ const ContactInfo = () => {
             </div>
             <div className={styles.area_before_qrcode}></div>
             <div className={styles.content_right}>
-                <Image src={qrcode} width="100px" height="100px" />
+                <Image src={qrcode} width="100" height="100" alt='' />
                 <div className={styles.qr_text}>透過Line聯絡</div>
             </div>
             {/* <div className={styles.info_content}>

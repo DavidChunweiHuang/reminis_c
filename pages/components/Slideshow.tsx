@@ -7,9 +7,9 @@ const banner_1920 = [
     // "url(/img/banner/img01_1920@2x-2.png)",
     // "url(/img/banner/img01_1920@2x-3.png)"
 
-    "url(/img/banner/spring/spring_banner1_1920.png)",
-    "url(/img/banner/spring/spring_banner2_1920.png)",
-    "url(/img/banner/spring/spring_banner3_1920.png)",
+    "url(/img/banner/rabbit1-1440.jpeg)",
+    "url(/img/banner/rabbit1-1440.jpeg)",
+    "url(/img/banner/rabbit1-1440.jpeg)"
 ]
 
 const banner_1440 = [
@@ -17,9 +17,9 @@ const banner_1440 = [
     // "url(/img/banner/banner_1440@2x.png)",
     // "url(/img/banner/banner_1440@2x.png)"
 
-    "url(/img/banner/spring/spring_banner1_1440.png)",
-    "url(/img/banner/spring/spring_banner2_1440.png)",
-    "url(/img/banner/spring/spring_banner3_1440.png)",
+    "url(/img/banner/rabbit1-1440.jpeg)",
+    "url(/img/banner/rabbit1-1440.jpeg)",
+    "url(/img/banner/rabbit1-1440.jpeg)"
 ]
 
 const banner_1280 = [
@@ -27,9 +27,9 @@ const banner_1280 = [
     // "url(/img/banner/banner_1280@2x.png)",
     // "url(/img/banner/banner_1280@2x.png)"
 
-    "url(/img/banner/spring/spring_banner1_1280.png)",
-    "url(/img/banner/spring/spring_banner2_1280.png)",
-    "url(/img/banner/spring/spring_banner3_1280.png)",
+    "url(/img/banner/rabbit1-1280.jpeg)",
+    "url(/img/banner/rabbit1-1280.jpeg)",
+    "url(/img/banner/rabbit1-1280.jpeg)"
 ]
 
 const banner_800 = [
@@ -37,9 +37,9 @@ const banner_800 = [
     // "url(/img/banner/banner_800@2x.png)",
     // "url(/img/banner/banner_800@2x.png)"
 
-    "url(/img/banner/spring/spring_banner1_800.png)",
-    "url(/img/banner/spring/spring_banner2_800.png)",
-    "url(/img/banner/spring/spring_banner3_800.png)",
+    "url(/img/banner/rabbit1-800.jpeg)",
+    "url(/img/banner/rabbit1-800.jpeg)",
+    "url(/img/banner/rabbit1-800.jpeg)"
 ]
 
 const banner_m = [
@@ -47,9 +47,9 @@ const banner_m = [
     // "url(/img/banner/banner_m@2x.png)",
     // "url(/img/banner/banner_m@2x.png)"
 
-    "url(/img/banner/spring/spring_banner1_m.png)",
-    "url(/img/banner/spring/spring_banner2_m.png)",
-    "url(/img/banner/spring/spring_banner3_m.png)",
+    "url(/img/banner/rabbit1-320.jpeg)",
+    "url(/img/banner/rabbit1-320.jpeg)",
+    "url(/img/banner/rabbit1-320.jpeg)"
 ]
 
 // var => let

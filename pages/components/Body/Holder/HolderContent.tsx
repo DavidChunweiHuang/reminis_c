@@ -3,19 +3,17 @@ import styles from '../../../../styles/Body/Waxmelt/WaxmeltContent.module.scss'
 import Image from 'next/image'
 import ic_point from '../../../../public/img/icon/ic_point@2x.png'
 
-const HolderContent = () => {
-    const content = "為要將燭球完美融化並體驗其融化過程的美麗，Reminis Candēre 燭台由此而生，將燭球放入碟盤中，細細品味視覺及嗅覺的融合。";
-
+const HolderContent = ({ en_title, ch_title, content }: any) => {
     return (
         <div className={styles.content}>
             <div className={styles.title_en}>
-                "Wax Melt Holder"
+                {en_title}
             </div>
 
             <div className={styles.title_ch}>
-                燭台系列
+                {ch_title}
                 <div className={styles.icon_main}>
-                    <Image src={ic_point} width="26.5px" height="10px" />
+                    <Image src={ic_point} width="26.5" height="10" alt='' />
                 </div>
             </div>
 

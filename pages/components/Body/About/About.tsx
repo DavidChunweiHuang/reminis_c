@@ -5,12 +5,17 @@ import Link from 'next/link'
 
 import AboutContent from './AboutContent'
 
-const About = () => {
+const About = ({ en_subtitle, ch_subtitle, content_title, content }: any) => {
     return (
         <div className={styles.container}>
 
             {/* About Content */}
-            <AboutContent />
+            <AboutContent
+                en_subtitle={en_subtitle}
+                ch_subtitle={ch_subtitle}
+                content_title={content_title}
+                content={content}
+            />
 
 
             {/* Image & Background */}
@@ -26,7 +31,7 @@ const About = () => {
             <div className={styles.below_area}>
                 <div className={styles.below_blank}>
                     <div className={styles.about_image}>
-                        <Image src={about_image} layout="fill" objectFit="cover" />
+                        <Image src={about_image} layout="fill" objectFit="cover" alt={''} />
                     </div>
                 </div>
                 <div className={styles.content_background} ></div>

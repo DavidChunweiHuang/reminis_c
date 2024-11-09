@@ -4,19 +4,23 @@ import WaxmeltContent from './WaxmeltContent'
 
 import styles from '../../../../styles/Body/Waxmelt/Waxmelt.module.scss'
 
-const Waxmelt = () => {
+const Waxmelt = ({ en_title, ch_title, content }: any) => {
     return (
         <div className={styles.container} id="waxmelt">
             <div className={styles.inner_container}>
                 <div className={styles.waxmelt_bg}>
-                    <Image src={waxmelt_bg} layout="responsive" objectFit="cover" />
+                    <Image src={waxmelt_bg} layout="responsive" objectFit="cover" alt={''} />
                 </div>
 
                 <div className={styles.blank_area}></div>
 
                 <div className={styles.waxmelt_content}>
                     {/* Content Component */}
-                    <WaxmeltContent />
+                    <WaxmeltContent
+                        en_title={en_title}
+                        ch_title={ch_title}
+                        content={content}
+                    />
                 </div>
             </div>
 

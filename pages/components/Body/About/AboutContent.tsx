@@ -2,14 +2,14 @@ import styles from '../../../../styles/Body/About/AboutContent.module.scss'
 import Image from 'next/image'
 import ic_point from '../../../../public/img/icon/ic_point@2x.png'
 
-const AboutContent = () => {
+const AboutContent = ({ en_subtitle, ch_subtitle, content_title, content }: any) => {
     return (
         <div className={styles.container}>
             <div className={styles.about_title} >
-                <span id={styles.en_subtitle}>"About us"</span>
-                <span id={styles.ch_title}>關於筧燭</span>
+                <span id={styles.en_subtitle}>{en_subtitle}</span>
+                <span id={styles.ch_title}>{ch_subtitle}</span>
                 <div className={styles.icon_main}>
-                    <Image src={ic_point} width="26.5px" height="10px" />
+                    <Image src={ic_point} width="26.5" height="10" alt='' />
                 </div>
             </div>
 
@@ -20,11 +20,10 @@ const AboutContent = () => {
 
                 </div>
                 <div className={styles.content}>
-                    <span id={styles.title}>"筧一縷香氣，燭一間憧憬"</span>
-                    <span id={styles.content}>筧燭是一種媒介，一種可以讓人們發現生活值得收藏的片段、
-                    可以讓人們擁有日常微小卻持續溫暖的媒介；透過靜靜地陪伴，
-                讓人們生活裡的每一片光影，每一次相聚，都能成為微笑著回憶的時光。
-                </span>
+                    <span id={styles.title}>{content_title}</span>
+                    <span id={styles.content}>
+                        {content}
+                    </span>
                 </div>
             </div>
         </div>

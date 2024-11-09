@@ -1,7 +1,7 @@
 import AccessoriesContent from './AccessoriesContent'
 import styles from '../../../../styles/Body/Accessories.module.scss'
 
-const Accessories = () => {
+const Accessories = ({ en_title, ch_title, content }: any) => {
     return (
         <div className={styles.container} id="accessories">
             <div className={styles.accessories_bg}>
@@ -9,7 +9,11 @@ const Accessories = () => {
 
             <div className={styles.below_blank}>
                 <div className={styles.accessories_content}>
-                    <AccessoriesContent />
+                    <AccessoriesContent
+                        en_title={en_title}
+                        ch_title={ch_title}
+                        content={content}
+                    />
                 </div>
             </div>
 

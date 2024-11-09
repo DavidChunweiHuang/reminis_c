@@ -21,12 +21,12 @@ const Navigation = () => {
 
             <ul>
                 {/* <li><Link href="/"><a>首頁</a></Link></li> */}
-                <li><Link href="#about" scroll={false}><a>關於筧燭</a></Link></li>
-                <li><Link href="#waxmelt" scroll={false}><a>燭球系列</a></Link></li>
-                <li><Link href="#crafter" scroll={false}><a>設計師系列</a></Link></li>
-                <li><Link href="#holder" scroll={false}><a>燭台系列</a></Link></li>
-                <li><Link href="#accessories" scroll={false}><a>輕體驗</a></Link></li>
-                <li><Link href="#contactus" scroll={false}><a>聯絡我們</a></Link></li>
+                <li><Link href="#about" scroll={false}>關於筧燭</Link></li>
+                <li><Link href="#waxmelt" scroll={false}>燭球系列</Link></li>
+                <li><Link href="#crafter" scroll={false}>設計師系列</Link></li>
+                <li><Link href="#holder" scroll={false}>燭台系列</Link></li>
+                <li><Link href="#accessories" scroll={false}>輕體驗</Link></li>
+                <li><Link href="#contactus" scroll={false}>聯絡我們</Link></li>
             </ul>
 
 
