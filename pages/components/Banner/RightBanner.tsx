@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import banner_cover from '../../../public/img/banner/img01_1920@2x.png'
-import logo_en from '../../../public/img/logo/logo_en.svg'
+import logo_en from '/img/logo/logo_en.svg'
 import styles from '../../../styles/Banner/RightBanner.module.scss'
 
 import Slideshow from '../Slideshow'
@@ -10,7 +10,8 @@ const RightBanner = () => {
     return (
         <div className={styles.right_container}>
             <div className={styles.tag}>
-                <Image src={logo_en} width="109.2" height="31" alt={''} />
+                {/* <Image src={logo_en} width="109.2" height="31" alt={''} /> */}
+                <img src={logo_en} width="109.2" height="31" alt={''} />
             </div>
 
             <Slideshow />
