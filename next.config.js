@@ -8,7 +8,7 @@ module.exports = {
   sassOptions: {
     includePaths: [path.join(__dirname, 'src/styles')],
   },
-  basePath: '/reminis_c',  // 替換為你的倉庫名稱
+  // basePath: '/reminis_c',  // 替換為你的倉庫名稱
   // assetPrefix: "/reminis_c",
   trailingSlash: true,     // 確保所有靜態路徑以斜線結尾
   images: {
