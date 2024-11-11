@@ -10,7 +10,7 @@ const RightBanner = () => {
     return (
         <div className={styles.right_container}>
             <div className={styles.tag}>
-                <img src={logo_en} width="109.2" height="31" alt={''} />
+                <Image src={logo_en} width="109.2" height="31" alt={''} />
             </div>
 
             <Slideshow />
