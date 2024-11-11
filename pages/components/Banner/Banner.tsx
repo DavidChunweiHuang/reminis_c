@@ -1,6 +1,7 @@
 import LeftBanner from './LeftBanner'
 import RightBanner from './RightBanner'
 import styles from '../../../styles/Banner/Banner.module.scss'
+import React from 'react'
 
 const Banner = ({ promote_text, banner_title }: any) => {
     return (
