@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import logo_pattern from '../../../public/img/logo/logo_pattern.svg'
+import logo_pattern from '/reminis_c/public/img/logo/logo_pattern.svg'
 import ic_point from '../../../public/img/icon/ic_point@2x.png'
 import styles from '../../../styles/Banner/LeftBanner.module.scss'
 import React from 'react'
