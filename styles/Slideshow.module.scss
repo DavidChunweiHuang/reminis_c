@@ -1,4 +1,3 @@
-
 // slide show
 .slideshow {
     position: relative;
@@ -12,7 +11,7 @@
 
 .slideshow_slider {
     white-space: nowrap;
-    transition: ease 1000ms; 
+    transition: ease 1000ms;
 
     height: 494px;
     width: 100%;
@@ -22,7 +21,7 @@
 .slide {
     position: relative;
     display: inline-block;
-    
+
     height: 100%;
     width: 100%;
 
@@ -31,7 +30,7 @@
 }
 
 // Change images or just put it at center? To be discussed (put at center for now)
-@media screen and (max-width: 1920px){
+@media screen and (max-width: 1920px) {
     .slideshow_slider {
         width: 100%;
     }
@@ -41,10 +40,10 @@
     }
 }
 
-@media screen and (max-width:1440px){
+@media screen and (max-width:1440px) {
     .slideshow_slider {
         width: 100%;
-        
+
     }
 
     .slide {
@@ -52,17 +51,7 @@
     }
 }
 
-@media screen and (max-width:1280px){
-    .slideshow_slider {
-        width: 100%;
-    }
-
-    .slide {
-        height: 494px;
-    }
-}
-
-@media screen and (max-width:800px){
+@media screen and (max-width:1280px) {
     .slideshow_slider {
         width: 100%;
     }
@@ -72,7 +61,17 @@
     }
 }
 
-@media screen and (max-width: 425px){
+@media screen and (max-width:800px) {
+    .slideshow_slider {
+        width: 100%;
+    }
+
+    .slide {
+        height: 494px;
+    }
+}
+
+@media screen and (max-width: 425px) {
     .slideshow_slider {
         width: 100%;
         height: 224px;

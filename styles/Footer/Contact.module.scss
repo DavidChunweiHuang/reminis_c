@@ -1,4 +1,4 @@
-@import "../utilities/variables.scss";
+@use "../utilities/variables.scss" as *;
 
 .contact_content {
     width: 482px;
@@ -9,7 +9,7 @@
     justify-content: center;
     align-items: center;
 
-    .contact_title{
+    .contact_title {
         width: 96px;
         height: 56px;
 
@@ -25,7 +25,7 @@
             font-style: $style_subtitle_en;
             color: $color_secondary;
         }
-    
+
         #ch_title {
             font-family: $font_ch;
             font-size: $size_title_ch;
@@ -44,7 +44,7 @@
         font-weight: $weight_content_ch;
         color: $color_secondary;
     }
-    
+
     .icons {
         margin-top: 25px;
         width: 204.29px;
@@ -67,14 +67,14 @@
         width: 100%;
         height: 100%;
 
-        .contact_title{
+        .contact_title {
             margin-top: 20px;
         }
 
         .contact_description {
             margin-top: 20px;
         }
-        
+
         .icons {
             margin-top: 22px;
             width: 260px;

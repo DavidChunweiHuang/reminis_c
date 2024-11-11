@@ -1,35 +1,35 @@
-@import "../../utilities/variables.scss";
+@use "../../utilities/variables.scss" as *;
 
 .container {
     width: 713px;
     height: 142px;
     z-index: 0;
-        
+
     margin-bottom: 40px;
-        
+
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
 
-    
+
 
     .about_title {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-    
+
         width: 96px;
         height: 93px;
-    
+
         #en_subtitle {
             font-family: $font_en;
             font-size: $size_subtitle_en;
             font-style: $style_subtitle_en;
             color: $color_secondary;
         }
-    
+
         #ch_title {
             font-family: $font_ch;
             font-size: $size_title_ch;
@@ -42,7 +42,7 @@
             margin: 20px 0px 10px 0px;
         }
     }
-    
+
     .bar {
         height: 90px;
         border: 0.5px solid $color_secondary;
@@ -70,7 +70,7 @@
             font-family: $font_ch;
             color: $color_secondary;
         }
-        
+
     }
 }
 
@@ -85,9 +85,9 @@
         width: 100%;
         height: 325px;
         z-index: 0;
-            
+
         margin-bottom: 0px;
-            
+
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -98,8 +98,9 @@
 
         background: rgba(242, 242, 242, 0.9);
 
-        .about_title {         
-            height: auto;   
+        .about_title {
+            height: auto;
+
             .icon_main {
                 display: none;
             }
@@ -121,5 +122,5 @@
             align-items: center;
         }
     }
-    
+
 }

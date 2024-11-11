@@ -1,4 +1,4 @@
-@import "./utilities/variables.scss";
+@use "./utilities/variables.scss" as *;
 
 html {
   height: 100%;
@@ -6,6 +6,7 @@ html {
 
   display: block;
 }
+
 body {
   width: 100%;
   height: auto;
@@ -23,4 +24,3 @@ a {
   box-sizing: border-box;
   font-family: $font_en, $font_ch;
 }
-
