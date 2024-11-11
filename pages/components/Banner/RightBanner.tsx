@@ -11,7 +11,7 @@ const RightBanner = () => {
         <div className={styles.right_container}>
             <div className={styles.tag}>
                 {/* <Image src={logo_en} width="109.2" height="31" alt={''} /> */}
-                <img src={logo_en} width="109.2" height="31" alt={''} />
+                <img src="/img/logo/logo_en.svg" width="109.2" height="31" alt={''} />
             </div>
 
             <Slideshow />
