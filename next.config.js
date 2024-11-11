@@ -8,8 +8,8 @@ module.exports = {
   sassOptions: {
     includePaths: [path.join(__dirname, 'src/styles')],
   },
-  // basePath: '/reminis_c',  // 替換為你的倉庫名稱
-  // trailingSlash: true,           // 確保所有靜態路徑以斜線結尾
+  basePath: '/reminis_c',  // 替換為你的倉庫名稱
+  trailingSlash: true,           // 確保所有靜態路徑以斜線結尾
   images: {
     unoptimized: true,  // 禁用圖片優化功能，適用於靜態導出
   },
