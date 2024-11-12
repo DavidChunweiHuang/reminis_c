@@ -17,7 +17,7 @@ const LeftBanner = ({ promote_text, banner_title }: any) => {
 
             <div className={styles.icon_main}>
                 {/* <Image src={ic_point} width="26.5" height="1" alt={''} /> */}
-                <img src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/img/icon/ic_point@2x.png`} width="26.5" height="1" alt={''} />
+                <img src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/img/icon/ic_point@2x.png`} width="26.5" height="10" alt={''} />
             </div>
 
             <div className={styles.promote_text_area}>
